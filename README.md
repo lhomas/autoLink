@@ -13,3 +13,7 @@ Along with the list of "core" individuals, a list of auxiliary individuals is ne
 
 The final think that is required for this series of scripts is a "complete" pedigree file that contains a every individual from the "core" and "auxiliary" lists. This pedigree should be in linkage format and have an additional column on the end that is equivalent to the map file used by LINKDATAGEN.
 
+There are 4 scripts in autoLink and a config file to allow easy specification of options specific to your analsyis.
+The scripts are:
+- autoLink_coordinator.sh
+-- 
