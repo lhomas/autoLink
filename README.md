@@ -15,5 +15,8 @@ The final think that is required for this series of scripts is a "complete" pedi
 
 There are 4 scripts in autoLink and a config file to allow easy specification of options specific to your analsyis.
 The scripts are:
-- autoLink_coordinator.sh
--- 
+- autoLink_coordinator.sh: Script to coordinate the running of other scripts in the autoLink pipeline
+- ped_create_perSamp.autoLink.sh: Script to subset complete pedigree to create the core pedigree and auxiliary pedigrees (core + 1 individual from auxiary list)
+- LDG_merlin_prep.autoLink.sh: Script to run LINKDATAGEN across core and auxiliary pedigrees, creating files necessary to complete linkage anlaysis with Merlin
+- merlin_linkage.autoLink.sh: Script to run linkage with Merlin across core and auxiliary pedigrees with the files created by the previous step
+- autoLink.cfg: Config file for easy specification of inputs into the analysis
