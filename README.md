@@ -7,7 +7,7 @@ This script came about from doing linkage analysis for a trait on an incredibly 
 My previous experience with linkage analysis lead me to beleive that there was likely only a few inddividuals from the pedigree causing the discrepencies in the linkage interval. However, manually checking each of these would be a rediculously time consuming task, thus autoLink was born.
 
 # Explantion
-AutoLink is very niche in that it requires a very speficic situation to be useful. That is, it requires a "core" set of individuals from the linkage analysis taht are 100% known to have the phenotype of interested, while all others are suspected to have the phenotype, but are not 100% confirmed.
+AutoLink is very niche in that it requires a very speficic situation to be useful. That is, it requires a "core" set of individuals from the linkage analysis that are 100% known to have the phenotype of interest, while all others are suspected to have the phenotype, but are not 100% confirmed.
 
 Along with the list of "core" individuals, a list of auxiliary individuals is needed. For each individual in this "auxiliary" list, an interation of the linkage analysis will be completed with a given individual being added to the core list, a pedigree being constructed, and linkage analysis ebing run with LINKDATAGEN and Merlin.
 
